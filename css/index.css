@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {}
+
+.navbar,
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+.content {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.content-tit {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.flight-info-btn {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.flight-info-form {
+    font-size: 1.6rem;
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 16px);
+}
+
+.search-btn {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+
+.flight-info-data {
+    font-size: 1.6rem;
+}
+
+.data-header {
+    background-color: #f0f0f0;
+}

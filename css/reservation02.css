@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {}
+
+.navbar,
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+.content {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.content-tit {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.content-sub{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.before-check-data, .choice-to, .choice-from {
+    font-size: 1.6rem;
+}
+
+.before-check-data {
+    text-align: center;
+}
+
+.data-to-list, .data-from-list {
+    margin-top: 6rem;
+}
+
+.data-to-header, .data-from-header {
+    background-color: #f0f0f0;
+}
+
+.choice-estimates {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.book-btn {
+        font-size: 1.6rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 3rem;
+}
