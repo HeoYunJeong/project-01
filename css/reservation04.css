@@ -51,19 +51,35 @@ body {}
 
 .content-sub{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     font-size: 2rem;
 }
 
-.passenger-info, .btn, .form-control {
+.seat-select-tit,.seat-select-to, .seat-select-from, .form-check-input {
+    text-align: center;
     font-size: 1.6rem;
 }
 
-.labelWrap {
-    margin-bottom: 2rem;
+.seat-select-to, .seat-select-from {
+
 }
 
 .btn {
-    margin: 1rem auto;
-    width: 20rem;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+    margin-top: 3rem;
+}
+
+.form-check {
+    margin-bottom: 1rem;
+    padding-left: 2.2em;
+}
+
+.form-check-input {
+    background-color: #8bb2a1;
+    border-color: #198754;
+}
+
+.disabled {
+    background-color: #adb5bd;
 }

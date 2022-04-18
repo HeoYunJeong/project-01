@@ -49,21 +49,43 @@ body {}
     font-size: 3rem;
 }
 
-.content-sub{
+.content-sub {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     font-size: 2rem;
 }
 
-.passenger-info, .btn, .form-control {
+.trip-detail,
+.info-detail,
+.fare-detail,
+.agree-detail-right {
     font-size: 1.6rem;
+    margin-bottom: 5rem;
 }
 
-.labelWrap {
-    margin-bottom: 2rem;
+.trip-css {
+    margin-bottom: 1rem;
+}
+
+.agree-detail-left {
+    font-size: 1.4rem;
+
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
 }
 
 .btn {
-    margin: 1rem auto;
-    width: 20rem;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+    margin-top: 3rem;
 }
