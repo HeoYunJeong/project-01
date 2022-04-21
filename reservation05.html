@@ -25,14 +25,15 @@
                 </div>
                 <div class="modal-body">
                     <div style="padding: 0 15px;">
-                    <p style="font-size: 16px; margin: 30px auto;">다음에 해당하는 신분증명서가 없을 경우 탑승권 발급 및 항공기 탑승이 제한될 수 있으니, 항공기
-                        탑승을 위하여 공항 방문 시 반드시 이 중 하나에 해당하는 신분증명서를
-                        소지하여 주시기 바랍니다.</p>
-                    <p style="font-size: 14px; margin-bottom: 40px;">
-                        1. 기존에 허용한 사본과 사진은 시행령 발효시점부터 인정하지 않습니다.<br>
-                        2. 복사본, 팩스본, 사진촬영본은 인정하지 않습니다.
-                    </p>
-                </div>
+                        <p style="font-size: 16px; margin: 30px auto;">다음에 해당하는 신분증명서가 없을 경우 탑승권 발급 및 항공기 탑승이 제한될 수 있으니,
+                            항공기
+                            탑승을 위하여 공항 방문 시 반드시 이 중 하나에 해당하는 신분증명서를
+                            소지하여 주시기 바랍니다.</p>
+                        <p style="font-size: 14px; margin-bottom: 40px;">
+                            1. 기존에 허용한 사본과 사진은 시행령 발효시점부터 인정하지 않습니다.<br>
+                            2. 복사본, 팩스본, 사진촬영본은 인정하지 않습니다.
+                        </p>
+                    </div>
                     <table class="table" style="font-size: 14px;">
                         <thead>
                             <tr>
@@ -84,7 +85,8 @@
                     <p style="margin: 30px;">예약을 취소하고 메인페이지로 돌아갑니다.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="margin: 5px;">닫기</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                        style="margin: 5px;">닫기</button>
                     <button type="button" class="btn btn-primary" style="margin: 5px;">확인</button>
                 </div>
             </div>
@@ -121,7 +123,8 @@
                             <p style="font-size: 14px; color: #666666; text-align: center;">항공요금,제세공과금,유류할증료,발권수수료 포함
                             </p>
                         </div>
-                        <div class="pay-notice" style="font-size: 14px; color: #666666; padding-top: 15px; border-top: 1px solid #d7d7d7;">
+                        <div class="pay-notice"
+                            style="font-size: 14px; color: #666666; padding-top: 15px; border-top: 1px solid #d7d7d7;">
                             <ul>
                                 <li class="li-st"> 결제시한까지 결제해 주십시오. 결제시한 이후에는 항공사 사정으로 예약이 사전 통보 없이 취소될 수 있습니다.</li>
                                 <li class="li-st"> 결제시한은 주말, 공휴일 및 항공사 사정으로 사전 통보 없이 자동 변경될 수 있습니다.</li>
@@ -211,12 +214,13 @@
                 <div class="trip-detail-left col-2">여정 상세</div>
                 <div class="trip-detail-right col">
                     <div class="right-cont row">
-                        <div class="detail-to col-4">
-                            <div class="detail-to-tit trip-css" style="text-align: left;">가는편</div>
-                            <div class="trip-css row">
-                                <div class="col-3">TW0602</div>
+                        <div class="detail-originating col-4">
+                            <div class="detail-originating-tit trip-css" style="text-align: left;">가는편</div>
+                            <div class="trip-css row" style="text-align: center;">
+                                <div class="col" style="text-align: left;">티웨이항공</div>
+                                <div class="col">TW0602</div>
                                 <div class="col-1" style="color: #00000066;">&#124;</div>
-                                <div class="col-2">3D</div>
+                                <div class="col">3D</div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
@@ -232,21 +236,23 @@
                             </div>
                             <div class="">31,000원</div>
                         </div>
-                        <div class="detail-to col-4" style="text-align: left;">
-                            <div class="detail-to-tit trip-css">오는편</div>
-                            <div class="trip-css row ">
-                                <div class="col-3">TW1212</div>
+                        <div class="col-2"></div>
+                        <div class="detail-return col-4" style="text-align: left;">
+                            <div class="detail-return-tit trip-css">오는편</div>
+                            <div class="trip-css row" style="text-align: center;">
+                                <div class="col" style="text-align: left;">티웨이항공</div>
+                                <div class="col">TW1212</div>
                                 <div class="col-1" style="color: #00000066;">&#124;</div>
-                                <div class="col-2">3A</div>
+                                <div class="col">3A</div>
                             </div>
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col">
                                     <div class="trip-css">제주</div>
                                     <div class="trip-css">15:00</div>
                                 </div>
                                 <div class="col-2"><span style="position: relative; top: calc(25%);">&#8594;</span>
                                 </div>
-                                <div class="col-4">
+                                <div class="col">
                                     <div class="trip-css">대구</div>
                                     <div class="trip-css">16:50</div>
                                 </div>
@@ -358,8 +364,8 @@
             <div style="text-align: center;">
                 <button type="button" class="btn btn btn-outline-secondary" data-bs-toggle="modal"
                     data-bs-target="#cancelModal" style="margin: 30px 10px;">예약취소</button>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#payStaticBackdrop" style="margin: 30px 10px;">결제하기</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#payStaticBackdrop"
+                    style="margin: 30px 10px;">결제하기</button>
             </div>
             <!-- // 다음 버튼 -->
 

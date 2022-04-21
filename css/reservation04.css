@@ -55,14 +55,11 @@ body {}
     font-size: 2rem;
 }
 
-.seat-select-tit,.seat-select-to, .seat-select-from, .form-check-input {
+.seat-select-tit,.seat-select-originating, .seat-select-return, .form-check-input {
     text-align: center;
     font-size: 1.6rem;
 }
 
-.seat-select-to, .seat-select-from {
-
-}
 
 .btn {
     font-size: 1.6rem;

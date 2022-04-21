@@ -63,33 +63,16 @@ body {}
     font-size: 2rem;
 }
 
-.trip-detail,
-.info-detail,
-.fare-detail,
-.agree-detail-right {
-    font-size: 1.6rem;
-    margin-bottom: 5rem;
-}
-
-.trip-css {
-    margin-bottom: 1rem;
-}
-
-.agree-detail-left {
-    font-size: 1.4rem;
-
-}
-
-table {
-    width: 100%;
-    /* border-top: 1px solid #444444; */
-}
-
-.info-thead {
-    border-bottom: 1px solid #444444;
-}
-
 .btn {
     font-size: 1.6rem;
     margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+table {
+    text-align: center;
 }

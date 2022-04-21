@@ -55,7 +55,7 @@ body {}
     font-size: 2rem;
 }
 
-.before-check-data, .choice-to, .choice-from {
+.before-check-data, .choice-originating, .choice-return {
     font-size: 1.6rem;
 }
 
@@ -63,11 +63,11 @@ body {}
     text-align: center;
 }
 
-.data-to-list, .data-from-list {
+.data-originating-list, .data-return-list {
     margin-top: 6rem;
 }
 
-.data-to-header, .data-from-header {
+.data-originating-header, .data-return-header {
     background-color: #f0f0f0;
 }
 
