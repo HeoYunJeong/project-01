@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {}
+
+.navbar,
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+.content {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.content-tit {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+/* .content-sub {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+} */
+
+.fs-16 {
+    font-size: 1.5rem;
+    word-break: keep-all;
+    font-weight: 600;
+}
+
+.fs-50 {
+    font-size: 5rem;
+}
+
+.neobi {
+    width: 130px;
+}
+
+.mid {
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+}
+
+.step1 {
+    position: relative;
+    width: 30.5rem;
+    height: 3rem;
+    margin-left: 24rem;
+    border: dashed 1px #333333;
+    border-top: none;
+}
+.step2, .step3, .step4 {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    margin-left: 1rem;
+    border: dashed 1px #333333;
+    border-top: none;
+}
+
+.time-box {
+    position: relative;
+    top: 1rem;
+}
+
+.time-box > div::before {
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    content: '';
+    width: 10px;
+    height: 12px;
+    background: url(/img/caret-up-solid.svg) no-repeat center;
+}
+
+.time-box > div div {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    width: 11rem;
+    height: 4rem;
+    text-align: center;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: #21af6d;
+}
+
+.time {
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(20%);
+    color: #fff;
+}
+
+.time-notice {
+    position: relative;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+}
+
+.time-notice span {
+    font-weight: 700;
+    color: #cf0142;
+}
