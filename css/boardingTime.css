@@ -77,19 +77,21 @@ body {}
 
 .step1 {
     position: relative;
+    top: -2rem;
     width: 30.5rem;
     height: 3rem;
     margin-left: 24rem;
     border: dashed 1px #333333;
-    border-top: none;
+    border-bottom: none;
 }
 .step2, .step3, .step4 {
     position: relative;
+    top: -2rem;
     width: 15rem;
     height: 3rem;
     margin-left: 1rem;
     border: dashed 1px #333333;
-    border-top: none;
+    border-bottom: none;
 }
 
 .time-box {
@@ -99,24 +101,24 @@ body {}
 
 .time-box > div::before {
     position: absolute;
-    top: -3px;
-    right: -6px;
+    top: 2rem;
+    right: -0.6rem;
     content: '';
-    width: 10px;
-    height: 12px;
-    background: url(/img/caret-up-solid.svg) no-repeat center;
+    width: 1rem;
+    height: 1.2rem;
+    background: url(/img/angle-down-solid.svg) no-repeat center;
 }
 
 .time-box > div div {
     position: absolute;
-    top: 1.5rem;
+    top: -2.3rem;
     left: 50%;
     width: 11rem;
     height: 4rem;
     text-align: center;
     transform: translateX(-50%);
-    border-radius: 10px;
-    background-color: #21af6d;
+    border-radius: 10rem;
+    background-color: #198754d1;
 }
 
 .time {
