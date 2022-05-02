@@ -19,14 +19,11 @@ function xmlParsing(data) {
     $(data).find('item').each(function (index, item) {
         //console.log(item);
         parking += `
-                <div class="each-status">
-                    <h3>${$(this).find('parkingAirportCodeName').text()}</h3>
-                    <p>전체 주차면 수 <span>${$(this).find('parkingFullSpace').text()}</span>대</p>
-                    <p>현재 주차 가능면 수 <span>${($(this).find('parkingFullSpace').text() - $(this).find('parkingIstay').text())}</span>대</p>
-                </div>
+            <option value="${data.id}">${$(this).find('aprKor').text()} ${$(this).find('parkingAirportCodeName').text()}</option>
         `;
-        $('#parkingStatus').empty().append(parking);
     });
+    console.log(parking);
+    $('#airport_name').append(parking);
 
 }
 
