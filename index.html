@@ -11,6 +11,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/flight_info.js"></script>
+
 </head>
 
 <body>
@@ -200,26 +203,19 @@
 
             <!-- 조회출력란 -->
             <div class="flight-info-data">
-                <ul>
+                <ul id="data_form">
                     <li class="data-header row">
-                        <p class="col">시간</p>
+                        <p class="col">출발시간</p>
                         <p class="col">변경시간</p>
-                        <p class="col">목적지</p>
+                        <p class="col">출발공항</p>
+                        <p class="col">도착공항</p>
                         <p class="col">항공사</p>
                         <p class="col">편명</p>
-                        <p class="col">탑승구</p>
-                    </li>
-                    <li class="data-list row">
-                        <p class="col">15:05</p>
-                        <p class="col">15:16</p>
-                        <p class="col">제주</p>
-                        <p class="col">아시아나항공</p>
-                        <p class="col">OZ8963</p>
-                        <p class="col">15</p>
                     </li>
                 </ul>
             </div>
             <!-- //조회출력란 -->
+            <div id="pagenation"><span id="page-num"></span></div>
         </div>
         <!-- //메인 -->
     </div>
