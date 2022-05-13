@@ -84,7 +84,7 @@
                         <div class="col-6">
                             <h3>공항</h3>
                             <select id="airport_name" class="airport form-select" title="출발지선택" style="font-size:16px;">
-
+                                <option value>선택</option>
                             </select>
                         </div>
                         <!-- //공항선택 -->
@@ -94,10 +94,10 @@
                             <h3>시간</h3>
                             <p id="timebox">
                                 <label for="tp1" class="sort form-label"></label>
-                                <input id="tp1" type="text" class="form-control time start" name="timepicker1">
+                                <input id="tp1" type="button" class="form-control time start" name="timepicker1">
                                 <span>~</span>
                                 <label for="tp2" class="sort form-label"></label>
-                                <input id="tp2" type="text" class="form-control time end" name="timepicker2">
+                                <input id="tp2" type="button" class="form-control time end" name="timepicker2">
                             </p>
                         </div>
 
@@ -106,19 +106,9 @@
                         <!-- 항공사선택 -->
                         <div class="col-6">
                             <h3>항공사</h3>
-                            <select name="pAirline" id="" class="airline form-select" style="font-size:16px;">
+                            <select name="pAirline" id="airline_name" class="airline form-select"
+                                style="font-size:16px;">
                                 <option value>선택</option>
-                                <option value="KE">대한항공</option>
-                                <option value="OZ">아시아나항공</option>
-                                <option value="BX">에어부산</option>
-                                <option value="RS">에어서울</option>
-                                <option value="7C">제주항공</option>
-                                <option value="LJ">진에어</option>
-                                <option value="TW">티웨이항공</option>
-                                <option value="4H">하이에어</option>
-                                <option value="4V">플라이강원</option>
-                                <option value="RF">에어로케이항공</option>
-                                <option value="YP">에어프레미아</option>
                             </select>
                         </div>
                         <!-- //항공사선택 -->
@@ -126,7 +116,7 @@
                         <!-- 편명입력 -->
                         <div class="col-md-6">
                             <label class="sort form-label" for>
-                                <h3>공항</h3>
+                                <h3>편명</h3>
                             </label>
                             <input name="pAirlinenum" type="text" class="form-control" title="편명을 입력해주세요"
                                 style="font-size:16px;">

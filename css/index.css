@@ -68,6 +68,7 @@ body {}
 
 .ui-timepicker-list {
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .search-btn {
