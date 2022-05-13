@@ -68,7 +68,6 @@ const flightInfo = {
                 'listWidth': 1,
                 'step': 60
             })
-
         });
 
     },
@@ -83,8 +82,13 @@ const flightInfo = {
             console.log(data);
             const apList = data.response.body.items.item;
 
-            for (let i = 0; i < apList.length; i++) {
-                $('#airport_name').append(`<option value="">${apList[i].airportNm}공항</option>`)
+            const airportNmArr = _.map(apList, 'airportNm');
+
+            const airportNmArrSort = airportNmArr.sort();
+
+            // 가나다순
+            for (let i = 0; i < airportNmArrSort.length; i++) {
+                $('#airport_name').append(`<option value="">${airportNmArrSort[i]}</option>`)
             }
 
         }).fail(function (error) {
@@ -101,8 +105,15 @@ const flightInfo = {
             console.log(data);
             const alList = data.response.body.items.item;
 
-            for (let i = 0; i < alList.length; i++) {
-                $('#airline_name').append(`<option value="">${alList[i].airlineNm}</option>`)
+            const airlineNmArr = _.map(alList, 'airlineNm');
+
+            const airlineNmArrSort = airlineNmArr.sort();
+
+            console.log(airlineNmArrSort);
+
+            // 가나다순
+            for (let i = 0; i < airlineNmArrSort.length; i++) {
+                $('#airline_name').append(`<option value="">${airlineNmArrSort[i]}</option>`)
             }
 
         }).fail(function (error) {
