@@ -62,7 +62,12 @@ body {}
 .time {
     position: relative;
     display: inline-block;
-    width: calc(50% - 16px);
+    font-size: 14px;
+    width: calc(50% - 17px);
+}
+
+.ui-timepicker-list {
+    font-size: 1.4rem;
 }
 
 .search-btn {
